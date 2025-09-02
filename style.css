@@ -72,6 +72,7 @@ main {
     color: #e0e2fb;
     z-index: 9999;
     position: relative;
+    transition: transform 0.3s ease;
 }
 
 .card-title h2 {
@@ -128,4 +129,9 @@ main {
 
 .btn:hover {
   cursor: pointer;
+}
+
+.card-content:hover {
+  transform: translateY(-10px);
+  filter: brightness(1.5);
 }
