@@ -1,0 +1,87 @@
+@media (min-width: 550px) {
+    .card {
+    width: 28%;
+    display: inline-block;
+    margin-inline: 0.6rem;
+  }
+
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  main {
+    width: 80%;
+  }
+
+  .icon-div {
+    display: block;
+  }
+  .profile-img {
+    justify-content: flex-start;
+  }
+
+  .profile-img img {
+    width: 10%;
+  }
+
+  .current {
+    font-size: clamp(0.5rem, 5vw, 3rem);
+    margin-block: 0.5rem;
+  }
+
+  .previous {
+    font-size: clamp(10px, 1vw, 20px);
+  }
+}
+
+@media (min-width: 770px) {
+  .card {
+    width: 25%;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    gap: 10px;
+  }
+
+  .current {
+    font-size: 2rem;
+  }
+  .previous {
+    margin-bottom: 0.4rem;
+  }
+
+  .profile-img, .time-options {
+    display: block;
+  }
+
+  .time-options {
+    margin-left: 0.8rem;
+  }
+
+  .profile-img img {
+    width: 35%;
+    margin-bottom: 2rem;
+  }
+
+  .profile-report h1 {
+    font-size: 2rem;
+  }
+
+  .profile-report {
+    padding-bottom: 1.5rem;
+  }
+
+  .btn {
+    display: block;
+    margin-bottom: 1rem;
+  }
+
+  .monthly {
+    margin-bottom: 0.1rem;
+  }
+}

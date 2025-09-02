@@ -1,0 +1,131 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  background-color: #1c204b;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main {
+  width: 90%;
+  margin: 3rem auto;
+}
+.main-section{
+    background-color: hsl(235, 46%, 28%);
+    border-radius: 15px;
+    margin-bottom: 3rem;
+}
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  background-color: #5747ea;
+  padding: 2rem;
+  border-radius: 20px;
+}
+.profile-img img {
+  width: 20%;
+  border-radius: 50%;
+  outline: 3px solid white;
+}
+
+.profile-report p {
+  color: #bbc0ff;
+  margin-bottom: 0.2rem;
+}
+
+.profile-report h1 {
+  color: white;
+  font-weight: 100;
+}
+
+.time-options {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 1.5rem 1rem;
+}
+
+.btn {
+  background-color: transparent;
+  color: #bbc0ff;
+  border: none;
+}
+
+.btn:active {
+  cursor: pointer;
+  color: white;
+}
+
+.card-content {
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: hsl(235, 46%, 28%);
+    margin-block: -2rem 1.5rem;
+    border-radius: 10px;
+    color: #e0e2fb;
+    z-index: 9999;
+    position: relative;
+}
+
+.card-title h2 {
+  display: inline-block;
+    margin-block: 0.5rem;
+    font-size: 1rem;
+}
+
+.icon {
+  float: right;
+  margin-top: 1rem;
+}
+
+.icon-div {
+  display: flex;
+  align-items: center;
+}
+
+.previous{
+  margin-left: auto;
+}
+
+.icon-div img {
+    margin-block: 1rem;
+    margin-left: 6rem;
+}
+
+.top-bg {
+    display: flex;
+    justify-content: flex-end;
+    border-radius: 20px;
+}
+
+.top-img {
+    z-index: 1;
+}
+
+.current {
+    font-size: 2rem;
+}
+
+.Social {
+  margin-bottom: -1.5rem;
+}
+
+.Exercise {
+  margin-bottom: 1rem;
+}
+
+.active {
+  color: white;
+  font-weight: bold;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
