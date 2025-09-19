@@ -1,4 +1,4 @@
-@media (min-width: 550px) {
+@media (min-width: 640px) {
     .card {
     width: 28%;
     display: inline-block;
@@ -37,7 +37,7 @@
   }
 }
 
-@media (min-width: 770px) {
+@media (min-width: 1000px) {
   .card {
     width: 25%;
   }
